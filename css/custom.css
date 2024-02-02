@@ -1,0 +1,47 @@
+@media (min-width: 768px){
+    .intro .intro-text {
+        max-width: 100%;
+    }
+    header .intro-text {
+       padding-top: 250px;
+        padding-bottom: 200px;
+    }
+    .serviceRows .col-sm-6 .box-services{
+        height: 450px;
+        /* margin-bottom: 25px; */
+    }
+    #team .serviceRows .col-sm-6 .box-services {
+        height:575px;
+    }
+}
+
+.intro-text{
+    text-align: center;
+}
+
+.serviceRows h4{
+    text-align: center
+}
+
+.serviceRows .col-sm-6 ul{
+    list-style-type:disc;
+    text-align: -webkit-match-parent;
+}
+
+.box-services{
+    text-align: left;
+    background-color:white;
+    padding: 40px 20px 20px;
+    border-bottom: 1px solid #d4d4d4;
+    background: #fff;
+}
+
+.serviceRows .col-sm-6{padding:10px}
+
+.serviceRows .col-sm-6 ul{margin-left:20px}
+
+.icon{text-align:center}
+
+#sectors small, .ppt{display:none!important}
+
+#team img{height:200px; width:200px;}
